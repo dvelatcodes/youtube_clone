@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Stack, Box, Typography } from '@mui/material';
-import Sidebar from './Sidebar';
+import { Sidebar, Videos } from './index';
 
 const Feed = () => {
   return (
@@ -23,6 +23,20 @@ const Feed = () => {
         >
           Dvelat Codes &copy; 2023
         </Typography>
+      </Box>
+      <Box
+        p={2}
+        sx={{ height: '90vh', overflow: 'auto', flex: 2 }}
+      >
+        <Typography
+          variant='h4'
+          fontWeight='bold'
+          mb={2}
+          sx={{ color: 'white' }}
+        >
+          New <span style={{ color: '#F35103' }}>Videos</span>
+        </Typography>
+        <Videos videos={[]} />
       </Box>
     </Stack>
   );
