@@ -3,7 +3,7 @@ import { categories } from '../utils/constant';
 import { Box } from '@mui/material';
 
 const vary = 'New';
-const Sidebar = () => (
+const Sidebar = ({ selectedCategory, setSelectedCategory }) => (
   <Box
     direction='row'
     sx={{
@@ -15,12 +15,15 @@ const Sidebar = () => (
     {categories.map((category) => (
       <button
         className='category-btn'
-        style={{ backgroundColor: category.name === vary && '#FC1503' }}
+        style={{
+          backgroundColor: category.name === selectedCategory && '#FC1503',
+        }}
         key={category.name}
+        onClick={() => setSelectedCategory(category.name)}
       >
         <span
           style={{
-            color: category.name === vary ? 'white' : 'red',
+            color: category.name === selectedCategory ? 'white' : 'red',
             marginRight: '15px',
           }}
         >
@@ -29,7 +32,7 @@ const Sidebar = () => (
         <span
           style={{
             color: 'white',
-            opacity: category.name === vary ? '1' : '0.8',
+            opacity: category.name === selectedCategory ? '1' : '0.8',
           }}
         >
           {category.name}
