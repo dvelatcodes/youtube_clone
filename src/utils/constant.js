@@ -34,9 +34,9 @@ export const categories = [
     { name: 'Crypto', icon: <DeveloperModeIcon />, },
 ];
 
-export const demoThumbnailUrl = 'https://i.ibb.co/G2L2Gwp/API-Course.png';
-export const demoChannelUrl = '/channel/UCmXmlB4-HJytD7wek0Uo97A';
-export const demoVideoUrl = '/video/GDa8kZLNhJ4';
+export const demoThumbnailUrl = 'https://www.freepik.com/free-psd/instagram-posts-collection-minimal-style-art-gallery-with-man_12216597.htm#from_view=detail_serie';
+export const demoChannelUrl = '/channel/UCAkw_2luitklPrvN7SgD-yQ';
+export const demoVideoUrl = 'https://www.youtube.com/watch?v=xqaC2WVpPNk';
 export const demoChannelTitle = 'Love Olubummo';
-export const demoVideoTitle = 'Build and Deploy 5 JavaScript & React API Projects in 10 Hours - Full Course | RapidAPI';
+export const demoVideoTitle = 'Flex Box Explained';
 export const demoProfilePicture = 'http://dergipark.org.tr/assets/app/images/buddy_sample.png'
