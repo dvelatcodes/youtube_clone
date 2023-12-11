@@ -16,9 +16,9 @@ React(useState, useEffect, useParams), Material ui(Box, Card, Stack, CardContent
 
 - [rapid-api](https://rapidapi.com/hub)
 
-## Deployment
+## Deployed on Vercel
 
-visit youtube-clone at: [vercel](https://youtube-clone-gilt-rho.vercel.app/)
+visit youtube-clone : [youtube-clone](https://youtube-clone-gilt-rho.vercel.app/)
 
 ## Available Scripts
 
