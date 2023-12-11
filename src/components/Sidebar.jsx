@@ -1,15 +1,14 @@
 import React from 'react';
 import { categories } from '../utils/constant';
-import { Box } from '@mui/material';
+import { Box, Stack } from '@mui/material';
 
 const vary = 'New';
 const Sidebar = ({ selectedCategory, setSelectedCategory }) => (
-  <Box
-    direction='row'
+  <Stack
+    direction={{ xs: 'row', md: 'column' }}
     sx={{
       overflowY: 'auto',
-      flexDirection: { md: 'column' },
-      height: { sx: 'auto', md: '92%' },
+      height: { xs: 'auto', md: '92%' },
     }}
   >
     {categories.map((category) => (
@@ -39,7 +38,7 @@ const Sidebar = ({ selectedCategory, setSelectedCategory }) => (
         </span>
       </button>
     ))}
-  </Box>
+  </Stack>
 );
 
 export default Sidebar;

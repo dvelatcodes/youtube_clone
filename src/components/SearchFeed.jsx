@@ -14,7 +14,7 @@ const SearchFeed = () => {
     );
   }, []);
   return (
-    <Stack sx={{ flexDirection: { sx: 'column', md: 'row' } }}>
+    <Stack sx={{ flexDirection: { xs: 'column', md: 'row' } }}>
       <Box
         p={2}
         sx={{ height: '90vh', overflow: 'auto', flex: 2 }}

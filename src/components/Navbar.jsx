@@ -10,7 +10,12 @@ const Navbar = () => {
       direction='row'
       alignItems='center'
       p={2}
-      sx={{ backgroundColor: '#000', top: 0, justifyContent: 'space-between' }}
+      sx={{
+        backgroundColor: '#000',
+        top: 0,
+        justifyContent: 'space-between',
+        position: 'sticky',
+      }}
     >
       <Link style={{ display: 'flex', alignItems: 'center' }}>
         <img

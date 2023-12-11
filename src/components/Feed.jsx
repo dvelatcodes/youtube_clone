@@ -12,15 +12,15 @@ const Feed = () => {
     );
   }, [selectedCategory]);
   return (
-    <Stack sx={{ flexDirection: { sx: 'column', md: 'row' } }}>
+    <Stack sx={{ flexDirection: { xs: 'column', md: 'row' } }}>
       <Box
         sx={{
           height: {
-            sx: 'auto',
+            xs: 'auto',
             md: '92vh',
-            borderRight: '1px solid #3d3d3d',
-            px: { sx: 0, md: 2 },
           },
+          borderRight: '1px solid #3d3d3d',
+          px: { xs: 0, md: 2 },
         }}
       >
         <Sidebar
