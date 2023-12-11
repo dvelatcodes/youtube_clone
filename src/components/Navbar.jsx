@@ -17,7 +17,10 @@ const Navbar = () => {
         position: 'sticky',
       }}
     >
-      <Link style={{ display: 'flex', alignItems: 'center' }}>
+      <Link
+        to='/'
+        style={{ display: 'flex', alignItems: 'center' }}
+      >
         <img
           src={logo}
           alt='logo'
