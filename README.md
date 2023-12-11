@@ -4,7 +4,7 @@ With the aim of creating a mock-up of youtube with the help of rapid api [ytdlfr
 
 ## Site-Navigation Video
 
-<video src="youtube-clone%20(1).mp4" controls title="Title"></video>
+[<video src="youtube-clone%20(1).mp4" controls title="Title"></video>](https://github.com/dvelatcodes/youtube_clone/assets/100165811/86a1f00d-25a2-44d4-8d37-61f8d8db8207)
 
 ## Screenshots
 
