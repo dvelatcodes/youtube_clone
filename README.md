@@ -4,15 +4,15 @@ With the aim of creating a mock-up of youtube with the help of rapid api [ytdlfr
 
 ## Site-Navigation Video
 
+<video src="youtube-clone.mp4" controls title="Title"></video>
+
 ## Screenshots
 
 ![Alt text](youtube-web.JPG)
 
 ## Methodologies | Frameworks | Syntax | api
 
-React(useState, useEffect, useParams), Material ui(Box, Card, Stack, CardContent, CardMedia, Typography, Paper, CheckCircle, Search, IconButton), axios, css,
-
-### api
+React(useState, useEffect, useParams), Material ui(Box, Card, Stack, CardContent, CardMedia, Typography, Paper, CheckCircle, Search, IconButton), axios, css.
 
 - [rapid-api](https://rapidapi.com/hub)
 
