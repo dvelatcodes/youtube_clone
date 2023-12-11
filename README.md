@@ -10,7 +10,7 @@ With the aim of creating a mock-up of youtube with the help of rapid api [ytdlfr
 
 ## Methodologies | Frameworks | Syntax | api
 
-React(useState, useEffect, useParams), Material ui(Box, Card, Stack, CardContent, CardMedia, Typography, Paper, CheckCircle, Search, IconButton), css,
+React(useState, useEffect, useParams), Material ui(Box, Card, Stack, CardContent, CardMedia, Typography, Paper, CheckCircle, Search, IconButton), axios, css,
 
 ### api
 
